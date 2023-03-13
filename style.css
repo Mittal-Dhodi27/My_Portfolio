@@ -1,0 +1,140 @@
+.navbar-brand {
+  font-family: "Lilita One", cursive;
+  font-size: 30px;
+}
+
+.navbar-nav {
+  font-family: "Vidaloka", serif;
+  font-size: 20px;
+}
+
+#sec1 {
+  position: relative;
+}
+#sec1 .img-fluid {
+  width: 100%;
+  height: 700px;
+}
+#sec1 .details {
+  position: absolute;
+  top: 15px;
+  height: 350px;
+}
+#sec1 .details .profile-img {
+  border: 3px solid green;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  width: 225px;
+  padding-left: 1px;
+  margin: 10% 0%;
+}
+#sec1 .details .profile-img .written {
+  font-family: "Koulen", cursive;
+  font-size: 18px;
+  color: black;
+}
+
+.sec2 {
+  position: relative;
+}
+.sec2 .img-fluid {
+  background-size: cover;
+  height: 1470px;
+}
+.sec2 .hd .heading {
+  position: absolute;
+  top: 25px;
+  left: 45%;
+  font-family: "Lilita One", cursive;
+  font-size: 30px;
+}
+.sec2 .hd .edu-det {
+  position: absolute;
+  top: 100px;
+  width: 80%;
+  font-family: "Lilita One", cursive;
+  font-size: 30px;
+}
+.sec2 .hd .edu-det .card-header {
+  font-size: 25px;
+  background-color: rgb(153, 255, 0);
+}
+.sec2 .hd .edu-det .card-body {
+  font-size: 20px;
+  background-color: pink;
+}
+.sec2 .hd .edu-det .card-body .card-title {
+  color: darkblue;
+}
+
+.sec3 {
+  font-family: "Vidaloka", serif;
+  font-size: 25px;
+  background-color: aqua;
+}
+.sec3 .fa-ul {
+  color: rgb(143, 5, 143);
+}
+.sec3 .fa-ul .fa-li {
+  margin: auto;
+  padding: auto;
+}
+
+.sec4 {
+  background-color: blanchedalmond;
+}
+.sec4 .topi {
+  top: 40px;
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+.sec4 .card .card-header {
+  font-family: "Lilita One", cursive;
+  font-size: 25px;
+}
+.sec4 .card .card-text {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.sec4 .card .card-footer {
+  font-family: "Lilita One", cursive;
+  font-size: 25px;
+}
+
+.contact-us {
+  background-color: black;
+}
+.contact-us p {
+  color: white;
+  text-align: center;
+}
+.contact-us .contacts {
+  color: white;
+}
+.contact-us .contacts h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.contact-us .contacts img {
+  width: 30px;
+}
+.contact-us .contacts div {
+  margin-bottom: 1rem;
+}
+.contact-us .contacts div span {
+  margin-left: 10px;
+}
+.contact-us .links a {
+  font-size: 30px;
+  padding-top: 40px;
+  padding-right: 30px;
+  color: white;
+}
+
+.top-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}/*# sourceMappingURL=style.css.map */

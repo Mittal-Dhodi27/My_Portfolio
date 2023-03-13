@@ -1,0 +1,181 @@
+.navbar-brand {
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+
+}
+
+.navbar-nav {
+    font-family: 'Vidaloka', serif;
+    font-size: 20px;
+}
+
+
+#sec1 {
+    position: relative;
+
+    .img-fluid {
+        width: 100%;
+        height: 700px;
+    }
+
+    .details {
+        position: absolute;
+        top: 15px;
+        height: 350px;
+
+
+        .profile-img {
+            border: 3px solid green;
+            border-top-right-radius: 30%;
+            border-bottom-left-radius: 30%;
+            width: 225px;
+            padding-left: 1px;
+            margin: 10% 0%;
+
+            .written {
+                font-family: 'Koulen', cursive;
+                font-size: 18px;
+                color: black;
+
+            }
+
+        }
+    }
+}
+
+.sec2 {
+    position: relative;
+
+    .img-fluid {
+        background-size: cover;
+        height: 1470px;
+    }
+
+    .hd {
+
+
+        .heading {
+            position: absolute;
+            top: 25px;
+            left: 45%;
+            font-family: 'Lilita One', cursive;
+            font-size: 30px;
+
+
+        }
+
+        .edu-det {
+            position: absolute;
+            top: 100px;
+            width: 80%;
+            font-family: 'Lilita One', cursive;
+            font-size: 30px;
+
+            .card-header {
+                font-size: 25px;
+                background-color: rgb(153, 255, 0, );
+            }
+
+            .card-body {
+                font-size: 20px;
+                background-color: pink;
+
+                .card-title {
+                    color: darkblue;
+                }
+            }
+        }
+    }
+}
+
+.sec3 {
+    font-family: 'Vidaloka', serif;
+    font-size: 25px;
+    background-color: aqua;
+
+    .fa-ul {
+        color: rgb(143, 5, 143);
+
+        .fa-li {
+            margin: auto;
+            padding: auto;
+
+        }
+    }
+}
+
+.sec4 {
+    background-color: blanchedalmond;
+
+    .topi {
+        top: 40px;
+        text-align: center;
+        color: red;
+        font-size: 50px;
+    }
+
+    .card {
+        .card-header {
+            font-family: 'Lilita One', cursive;
+            font-size: 25px;
+        }
+
+        .card-text {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        .card-footer {
+            font-family: 'Lilita One', cursive;
+            font-size: 25px;
+        }
+    }
+}
+
+.contact-us {
+    background-color: black;
+
+    p {
+        color: white;
+        text-align: center;
+
+    }
+
+    .contacts {
+        color: white;
+
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        img {
+            width: 30px;
+        }
+
+        div {
+            margin-bottom: 1rem;
+
+            span {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .links {
+        a {
+
+            font-size: 30px;
+            padding-top: 40px;
+            padding-right: 30px;
+            color: white;
+        }
+    }
+}
+
+.top-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
